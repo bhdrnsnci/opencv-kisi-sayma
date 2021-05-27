@@ -42,7 +42,7 @@ def webStream():
     tmonth = str(today.month)
     tday = str(today.day)
 
-    cap = cv.VideoCapture(0, cv.CAP_DSHOW)
+    cap = cv.VideoCapture("a.avi")
 
     h = 480
     w = 640

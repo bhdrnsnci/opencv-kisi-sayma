@@ -9,6 +9,6 @@ with sqlite3.connect("Counter.db") as cdb:
     #   dates
     #   numbers
     cursor.execute("create table people(id integer primary key autoincrement, year text, month text, day text, numbers int)")
-    cursor.execute("insert into people(year, month, day, numbers) values('2021', '5', '25', 10)")
+    cursor.execute("insert into people(year, month, day, numbers) values('2021', '5', '25', 0)")
 
 print("Veri tabanı oluşturuldu.")
