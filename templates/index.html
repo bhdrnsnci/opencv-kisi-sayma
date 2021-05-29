@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16542001 - Bahadır Nişancı</title>
+    <style>
+        * {
+            margin: 0; padding: 0; border: 0;
+        }
+        ::selection {
+            background-color: #000;
+            color: #fff;
+        }
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #0000ff10;
+        }
+        body > div {
+            margin: 5px 0;
+        }
+        #header {
+            background-color: #fff;
+            width: 900px;
+            header: 200px;
+            padding: 20px;
+        }
+        #title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px dashed #000;
+            padding: 20px 100px;
+        }
+        #camera  {
+            width: 940px;
+            height: 300px;
+            min-width: 640px;
+            min-height: 480px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #menu {
+            width: 940px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+        }
+        #menu a {
+            color: #000;
+            background-color: #fff;
+            text-decoration: none;
+            padding: 5px 15px;
+            border: 2px dashed #000;
+            transition: all .3s;
+        }
+        .button {
+            width: 45%;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #menu a:hover {
+            color: #fff;
+            background-color: #000000;
+            border: 2px dashed #fff;
+        }
+        #footer {
+            margin: 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 5px 0;
+            background-color: #000;
+            color: #ffffff50;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="title">
+            <h1>Yapay Zeka ve Uzman Sistemler</h1>
+            <h2>Sokaktan geçen insanların sayılması ve analizinin yapılması</h2>
+        </div>
+    </div>
+
+    <div id="menu">
+        <a href="/countcam" class="button">Kamera</a>
+        <a href="/report" class="button" target="_blank">Analiz</a>
+    </div>
+    <div id="footer">
+        16542001 - Bahadır Nişancı - bhdrnsnci@gmail.com
+    </div>
+</body>
+</html>
