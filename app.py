@@ -1,6 +1,5 @@
 from flask import Flask, Response, render_template
-from datetime import date, time, datetime
-import matplotlib.pyplot as plt
+from datetime import date
 import sqlite3
 import io
 import numpy as np
@@ -8,6 +7,7 @@ import cv2 as cv
 import Person
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
+
 app = Flask(__name__)
 
 count = 0
